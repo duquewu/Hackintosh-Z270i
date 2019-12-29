@@ -60,12 +60,12 @@
 
 **关于本机**
 
-![About Mac](Screenshot/About.png)
+![About Mac](Screenshots/About.png)
 
 **WiFi**
 
-![WiFi 3](Screenshot/Wifi 3.png)
+![WiFi 3](Screenshots/Wifi 3.png)
 
 **BlueTooth**
 
-![](Screenshot/BT 2.png)
+![](Screenshots/BT 2.png)
