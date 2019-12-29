@@ -1,4 +1,4 @@
-# HacMini:  Z270i + 7700K  + DDR4 32G
+# HacMini:  Z270i + 7700K  + DDR4 3000MHz
 
 ### 引导
 
@@ -15,7 +15,7 @@
 * 硬盘：三星® [PM961-1T](https://www.samsung.com/semiconductor/ssd/client-ssd/MZVLW1T0HMLH/)
 * 内存：美商海盗船 复仇者® [32GB (2x16GB) DDR4 3000MHz]([https://www.corsair.com/zh/zh/%E7%B1%BB%E5%88%AB/%E4%BA%A7%E5%93%81/%E5%86%85%E5%AD%98/VENGEANCE-LPX/p/CMK32GX4M2B3000C15](https://www.corsair.com/zh/zh/类别/产品/内存/VENGEANCE-LPX/p/CMK32GX4M2B3000C15))
 * 机箱 & 电源：迎广 [肖邦](https://www.in-win.com/cn/gaming-chassis/Chopin)
-* WiFi & 蓝牙：戴尔 DW1820A / BCM94350ZAE
+* WiFi & 蓝牙：戴尔 DW1820A
 
 ### 驱动
 
@@ -25,7 +25,7 @@
   * ApfsDriverLoader.efi
 
 * [AptioFixPkg - R27](https://github.com/acidanthera/AptioFixPkg/releases)
-* AptioInputFix.efi
+  * AptioInputFix.efi
   * AptioMemoryFix.efi
 
 #### KEXTs
@@ -50,9 +50,22 @@
 
   
 
-### 说明
+### 补充说明
 
-现阶段，黑苹果兼容的 2230 型号的无线网卡如：DW1560、DW1830 价位较贵，暂时使用 DW1820A 代替。
+现阶段，黑苹果兼容的 2230 型号的无线网卡如：DW1560、DW1830 价位较贵，暂用 DW1820A 代替。
 
 
 
+### 截图
+
+**关于本机**
+
+![About Mac](Screenshot/About.png)
+
+**WiFi**
+
+![WiFi 3](Screenshot/Wifi 3.png)
+
+**BlueTooth**
+
+![](Screenshot/BT 2.png)
