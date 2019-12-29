@@ -64,7 +64,7 @@
 
 **WiFi**
 
-![WiFi 3](Screenshots/Wifi-3.png)
+![WiFi 3](Screenshots/WiFi-3.png)
 
 **BlueTooth**
 
