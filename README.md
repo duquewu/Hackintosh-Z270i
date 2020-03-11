@@ -1,5 +1,7 @@
 # HacMini:  Z270i + 7700K  + DDR4 3000MHz
 
+> OpenCore 引导测试中，具体配置可在 opencore 分支查看
+
 ### 引导
 
 **Clover Version**： [v2.5k r5070](https://sourceforge.net/projects/cloverefiboot/files/Installer/)
