@@ -1,4 +1,4 @@
-# HacMini:  Z270i + 7700K  + DDR4 3000MHz
+# HacMini:  Z270i + 7700K
 
 > OpenCore 引导测试中，具体配置可在 opencore 分支查看
 
@@ -36,14 +36,15 @@
   * 声卡驱动 [AppleALC.kext - 1.4.7](https://github.com/acidanthera/AppleALC)
   * 核心显卡驱动 [WhateverGreen.kext - 1.3.7](https://github.com/acidanthera/WhateverGreen)
   * WiFi 驱动 [AirportBrcmFixup.kext - 2.0.6](https://github.com/acidanthera/AirportBrcmFixup)
-  * 蓝牙驱动 [BrcmPatchRAM  - 2.5.1](https://github.com/acidanthera/BrcmPatchRAM
-    * BrcmFirmwareData.kext
-    * BrcmPatchRAM3.kext
-    * BrcmBluetoothInjector.kext
-* USB 驱动：USBPort.kext 已定制
+* 蓝牙驱动 [BrcmPatchRAM  - 2.5.1](https://github.com/acidanthera/BrcmPatchRAM)
+  * BrcmFirmwareData.kext    
+  * BrcmPatchRAM3.kext
+  * BrcmBluetoothInjector.kext
 * [VirtualSMC.kext 1.1.1](https://github.com/acidanthera/VirtualSMC/releases)
   * SMCProcessor.kext
   * SMCSuperIO.kext
+* USB 驱动：USBPort.kext + XHCI-unsupported.kext
+* 有线网卡：[IntelMausiEthernet.kext - 2.5.0](https://github.com/Mieze/IntelMausiEthernet)
 
 ### 支持功能
 
@@ -52,6 +53,8 @@
 * 无线：2.4G/5G WiFi 正常、蓝牙外设正常
 
 * [连接互通](https://support.apple.com/zh-cn/HT204681)：支持接力、通用剪贴板、iPhone 蜂窝网络电话、信息转发、智能热点、隔空投送等
+
+* USB 已定制，USB2.0 x 8, USB 3.0 x 5。（后置 TYPE-C 是鸡肋的 USB 3.1 gen1 ，因数量限制，暂未启用）
 
   
 
@@ -67,10 +70,10 @@
 
 ![About Mac](Screenshots/About.png)
 
-**WiFi**
+**Hackintool**
 
-![WiFi 3](Screenshots/WiFi-3.png)
+![Hackintool Capture1](Screenshots/Hackintool.png)
 
-**BlueTooth**
+**USB-Customized**
 
-![](Screenshots/BT-2.png)
+![Hackintool Capture2](Screenshots/USB-Customized.png)
