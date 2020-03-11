@@ -4,7 +4,7 @@
 
 **Clover Version**： [v2.5k r5070](https://sourceforge.net/projects/cloverefiboot/files/Installer/)
 
-**macOS Version**：macOS Catalina [10.15.2 （19C57）](https://developer.apple.com/documentation/macos_release_notes/macos_catalina_10_15_2_release_notes)
+**macOS Version**：macOS Catalina 10.15.x
 
 ### 配置单
 
@@ -38,6 +38,7 @@
     * BrcmFirmwareData.kext
     * BrcmPatchRAM3.kext
     * BrcmBluetoothInjector.kext
+* USB 驱动：USBPort.kext 已定制
 * [FakeSMC.kext]()
 
 ### 支持功能
@@ -52,7 +53,7 @@
 
 ### 补充说明
 
-现阶段，黑苹果兼容的 2230 型号的无线网卡如：DW1560、DW1830 价位较贵，暂用 DW1820A 代替。
+现阶段黑苹果兼容的 2230 型号的无线网卡如：DW1560、DW1830 价位较高，暂用 DW1820A 代替。
 
 
 
