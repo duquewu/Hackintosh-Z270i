@@ -32,16 +32,18 @@
 
 #### KEXTs
 
-* 驱动平台 [Lilu.kext - 1.4.0](https://github.com/acidanthera/Lilu)
-  * 声卡驱动 [AppleALC.kext - 1.4.4](https://github.com/acidanthera/AppleALC)
-  * 核心显卡驱动 [WhateverGreen.kext - 1.3.5](https://github.com/acidanthera/WhateverGreen)
-  * WiFi 驱动 [AirportBrcmFixup.kext - 2.0.4](https://github.com/acidanthera/AirportBrcmFixup)
-  * 蓝牙驱动 [BrcmPatchRAM  - 2.5.0](https://github.com/acidanthera/BrcmPatchRAM)
+* 驱动平台 [Lilu.kext - 1.4.2](https://github.com/acidanthera/Lilu)
+  * 声卡驱动 [AppleALC.kext - 1.4.7](https://github.com/acidanthera/AppleALC)
+  * 核心显卡驱动 [WhateverGreen.kext - 1.3.7](https://github.com/acidanthera/WhateverGreen)
+  * WiFi 驱动 [AirportBrcmFixup.kext - 2.0.6](https://github.com/acidanthera/AirportBrcmFixup)
+  * 蓝牙驱动 [BrcmPatchRAM  - 2.5.1](https://github.com/acidanthera/BrcmPatchRAM
     * BrcmFirmwareData.kext
     * BrcmPatchRAM3.kext
     * BrcmBluetoothInjector.kext
 * USB 驱动：USBPort.kext 已定制
-* [FakeSMC.kext]()
+* [VirtualSMC.kext 1.1.1](https://github.com/acidanthera/VirtualSMC/releases)
+  * SMCProcessor.kext
+  * SMCSuperIO.kext
 
 ### 支持功能
 
