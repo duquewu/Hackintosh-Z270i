@@ -1,5 +1,9 @@
 ## CHANGELOG-CN
 
+### 2020.4.12
+
+1. Clover 更新到  [r5111](https://github.com/CloverHackyColor/CloverBootloader/releases)，适配 macOS 10.15.4
+
 ### 2020.3.12
 
 1. 内核驱动  Kext  更新

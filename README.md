@@ -4,9 +4,9 @@
 
 ### 引导
 
-**Clover Version**： [v2.5k r5070](https://sourceforge.net/projects/cloverefiboot/files/Installer/)
+**Clover Version**： [v5.0 r5111](https://github.com/CloverHackyColor/CloverBootloader/releases)
 
-**macOS Version**：macOS Catalina 10.15.x
+**macOS Version**：macOS Catalina 10.15.4
 
 ### 配置单
 
