@@ -1,12 +1,12 @@
-# HacMini:  Z270i + 7700K
+# BigSur HacMini:  Z270i + 7700K
 
-> OpenCore 引导测试中，请尽量在 U 盘中尝试。
+> OpenCore EFI
 
 ### 引导
 
-**OpenCore Version**： [0.5.6](https://github.com/acidanthera/OpenCorePkg/releases)
+**OpenCore Version**： [0.6.3](https://github.com/acidanthera/OpenCorePkg/releases)
 
-**macOS Version**：macOS Catalina 10.15.3
+**macOS Version**：Big Sur - 11.0.1
 
 ### 配置单
 
@@ -21,30 +21,36 @@
 
 ### 驱动
 
+### ACPI
+
+* [SSDT-EC-USBX-DESKTOP.aml](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-EC-USBX-DESKTOP.aml)
+* [SSDT-PLUG-DRTNIA.aml](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-PLUG-DRTNIA.aml)
+
 #### UEFIs
 
-* [AppleSupportPkg - 2.1.6](https://github.com/acidanthera/AppleSupportPkg) 
-  * ApfsDriverLoader.efi
-* VBoxHfs.efi
+* [HfsPlus.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi)
   
-* [OpenCorePkg - 0.5.6](https://github.com/acidanthera/OpenCorePkg)
-  * FwRuntimeServices.efi
+* [OpenCorePkg - 0.6.3](https://github.com/acidanthera/OpenCorePkg)
+  * 内置 OpenRuntime.efi
 
 #### KEXTs
 
-* 驱动平台 [Lilu.kext - 1.4.2](https://github.com/acidanthera/Lilu)
-  * 声卡驱动 [AppleALC.kext - 1.4.7](https://github.com/acidanthera/AppleALC)
-  * 核心显卡驱动 [WhateverGreen.kext - 1.3.7](https://github.com/acidanthera/WhateverGreen)
-  * WiFi 驱动 [AirportBrcmFixup.kext - 2.0.6](https://github.com/acidanthera/AirportBrcmFixup)
-  * 蓝牙驱动 [BrcmPatchRAM  - 2.5.1](https://github.com/acidanthera/BrcmPatchRAM)
-    * BrcmFirmwareData.kext
-    * BrcmPatchRAM3.kext
-    * BrcmBluetoothInjector.kext
-* USB 驱动：USBPort.kext + XHCI-unsupported.kext
+* 驱动平台 [Lilu.kext - 1.4.9](https://github.com/acidanthera/Lilu)
+* 声卡驱动 [AppleALC.kext - 1.5.4](https://github.com/acidanthera/AppleALC)
+* 核心显卡驱动 [WhateverGreen.kext - 1.4.4](https://github.com/acidanthera/WhateverGreen)
+* WiFi 驱动 [AirportBrcmFixup - 2.1.1](https://github.com/acidanthera/AirportBrcmFixup)
+  * AirportBrcmFixup.kext
+  * [AirPortBrcm4360_Injector.kext](https://github.com/acidanthera/AirportBrcmFixup/tree/master/Resources)
+  * [AirPortBrcmNIC_Injector.kext](https://github.com/acidanthera/AirportBrcmFixup/tree/master/Resources)
+* 蓝牙驱动 [BrcmPatchRAM  - 2.5.5](https://github.com/acidanthera/BrcmPatchRAM)
+  * BrcmFirmwareData.kext
+  * BrcmPatchRAM3.kext
+  * BrcmBluetoothInjector.kext
+* USB 驱动：自行为肖邦机箱定制的 USBPort.kext
 * [VirtualSMC.kext - 1.1.1](https://github.com/acidanthera/VirtualSMC/releases)
   * SMCProcessor.kext
   * SMCSuperIO.kext
-* 有线网卡：[IntelMausiEthernet.kext - 2.5.0](https://github.com/Mieze/IntelMausiEthernet)
+* 有线网卡：[IntelMausi.kext - 1.0.4](https://github.com/acidanthera/IntelMausi/releases)
 
 ### 支持功能
 
@@ -55,13 +61,6 @@
 * [连接互通](https://support.apple.com/zh-cn/HT204681)：支持接力、通用剪贴板、iPhone 蜂窝网络电话、信息转发、智能热点、隔空投送等
 
 * USB 已定制，USB2.0 x 8, USB 3.0 x 5。（后置 TYPE-C 是鸡肋的 USB 3.1 gen1 ，因数量限制，暂未启用）
-
-  
-
-### 补充说明
-
-现阶段黑苹果兼容的 2230 型号的无线网卡如：DW1560、DW1830 价位较高，暂用 DW1820A 代替。
-
 
 
 ### 截图
