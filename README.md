@@ -46,7 +46,7 @@
   * BrcmFirmwareData.kext
   * BrcmPatchRAM3.kext
   * BrcmBluetoothInjector.kext
-* USB 驱动：自行为肖邦机箱定制的 USBPort.kext
+* USB 驱动：USBPort.kext
 * [VirtualSMC.kext - 1.1.1](https://github.com/acidanthera/VirtualSMC/releases)
   * SMCProcessor.kext
   * SMCSuperIO.kext
@@ -58,7 +58,7 @@
 
 * 无线：2.4G/5G WiFi 正常、蓝牙外设正常
 
-* [连接互通](https://support.apple.com/zh-cn/HT204681)：支持接力、通用剪贴板、iPhone 蜂窝网络电话、信息转发、智能热点、隔空投送等
+* [连续互通](https://support.apple.com/zh-cn/HT204681)：支持接力、通用剪贴板、iPhone 蜂窝网络电话、信息转发、智能热点、隔空投送等
 
 * USB 已定制，USB2.0 x 8, USB 3.0 x 5。（后置 TYPE-C 是鸡肋的 USB 3.1 gen1 ，因数量限制，暂未启用）
 
