@@ -71,7 +71,9 @@
 
 **Hackintool**
 
-![Hackintool Capture1](Screenshots/Hackintool.png)
+![Hackintool Capture1](Screenshots/Hackintool-1.png)
+
+![Hackintool Capture1](Screenshots/Hackintool-2.png)
 
 **USB-Customized**
 
