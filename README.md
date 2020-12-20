@@ -6,7 +6,7 @@
 
 **OpenCore Version**： [0.6.3](https://github.com/acidanthera/OpenCorePkg/releases)
 
-**macOS Version**：Catalina 10.15.6 ~ Big Sur 11.0.1
+**macOS Version**：Catalina 10.15.6 ~ Big Sur 11.1
 
 ### 配置单
 
