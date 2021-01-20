@@ -1,3 +1,8 @@
+> !!!ATTENTION PLEASE!!!  
+> !!!ATTENTION PLEASE!!!  
+> !!!ATTENTION PLEASE!!!  
+> 因设备升级，此项目不再维护。
+
 # BigSur HacMini:  Z270i + 7700K
 
 > OpenCore EFI
